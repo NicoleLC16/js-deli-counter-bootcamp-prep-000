@@ -40,3 +40,13 @@ function currentLine (line) {
 }
 
 
+var counter = 0
+
+function takeANumberTwo (counter) {
+  counter++
+  
+  return ("You are number" + counter);
+}
+
+
+
